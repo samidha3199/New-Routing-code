@@ -1,0 +1,28 @@
+# Task
+
+Dynamic Routing.
+When u click on Restaurant Card i want to see the menu section of every card ha pan.
+
+# Solution
+
+    # Steps
+
+    1. Create a restaurant menu page.
+
+    RestaurantMenu.js
+
+    2. Create a dynamic route.
+
+    {
+        path:"/restaurants/:resId",
+        element:<RestaurantMenu/>,
+    },
+
+    for this we use id.
+    dynamic routes means: majhe cards ahe ani khup ahet right m konta pan card click kela ki to card open honar asa so mi tyachasathi id use karnar.
+
+    3. Output
+
+    http://localhost:53071/restaurants/123
+
+    123 is dummy id ha kahi pan taku saktey.
